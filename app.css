@@ -1,0 +1,302 @@
+
+#travel-planner-photo-v8 .tp-stage {min-height:980px;padding:24px 12px 40px;display:flex;justify-content:center;align-items:flex-start;box-sizing:border-box}
+#travel-planner-photo-v8 .tp-phone {--tp-bg:light-dark(#f7f6f2,#171c1a);--tp-card:light-dark(#fff,#242c29);--tp-fg:light-dark(#263a33,#eef4ef);--tp-muted:light-dark(#65756d,#b1c2b6);--tp-line:light-dark(#e7ebe3,#3b4941);--tp-accent:light-dark(#326957,#97ceb5);--tp-on-accent:light-dark(#fff,#142c21);--tp-soft:light-dark(#eaf1e8,#2d3f34);--tp-food:light-dark(#f5eadb,#493b2b);--tp-food-text:light-dark(#765b39,#ecd0a8);--tp-warn:light-dark(#8f6233,#e4bc88);--tp-radius:20px;--tp-photo:url('assets/travel-cover-1.jpg');color-scheme:light dark;background:var(--tp-bg);color:var(--tp-fg);width:390px;max-width:100%;border:1px solid var(--tp-line);border-radius:32px;box-shadow:0 16px 44px light-dark(#22372a12,#0005);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;font-size:14px;line-height:1.55;overflow:clip;position:relative;box-sizing:border-box}
+#travel-planner-photo-v8 .tp-phone * {box-sizing:border-box}
+#travel-planner-photo-v8 .tp-phone button,#travel-planner-photo-v8 .tp-phone input,#travel-planner-photo-v8 .tp-phone select {font:inherit}
+#travel-planner-photo-v8 .tp-phone button {color:inherit;background:none;border:0;min-height:40px;padding:8px 10px;border-radius:12px;touch-action:manipulation}
+#travel-planner-photo-v8 .tp-phone button:hover {background:var(--tp-soft)}
+#travel-planner-photo-v8 .tp-phone button:focus-visible {outline:2px solid var(--tp-accent);outline-offset:2px}
+#travel-planner-photo-v8 .tp-phone input,#travel-planner-photo-v8 .tp-phone select {color:var(--tp-fg);background:var(--tp-card);width:100%;min-width:0;min-height:44px;border:1px solid var(--tp-line);border-radius:12px;padding:10px}
+#travel-planner-photo-v8 .tp-phone strong,#travel-planner-photo-v8 .tp-phone h1,#travel-planner-photo-v8 .tp-phone h2,#travel-planner-photo-v8 .tp-phone h3 {font-weight:500}
+#travel-planner-photo-v8 .tp-phone h1 {font-size:26px;line-height:1.25;margin:0}
+#travel-planner-photo-v8 .tp-phone h2 {font-size:18px;margin:0}
+#travel-planner-photo-v8 .tp-phone h3 {font-size:16px;margin:0}
+#travel-planner-photo-v8 .tp-phone p {margin:0}
+#travel-planner-photo-v8 .tp-status {display:flex;justify-content:space-between;align-items:center;padding:12px 22px 5px;font-size:12px;font-weight:500}
+#travel-planner-photo-v8 .tp-status span:last-child {display:flex;gap:6px}
+#travel-planner-photo-v8 .tp-status svg {width:14px;height:14px}
+#travel-planner-photo-v8 .tp-head {padding:12px 18px 16px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+#travel-planner-photo-v8 .tp-head>div {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-head h2 {font-size:19px}
+#travel-planner-photo-v8 .tp-head .tp-small {margin-top:2px}
+#travel-planner-photo-v8 .tp-icon {display:flex;align-items:center;justify-content:center;flex-shrink:0;width:40px}
+#travel-planner-photo-v8 .tp-phone svg {width:18px;height:18px;flex-shrink:0;vertical-align:middle;display:inline-block}
+#travel-planner-photo-v8 .tp-small {font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-title-row {display:flex;justify-content:space-between;align-items:center;gap:6px;margin:15px 0 10px}
+#travel-planner-photo-v8 .tp-title-row>button {font-size:12px;color:var(--tp-accent);padding:4px 6px}
+#travel-planner-photo-v8 .tp-content {padding:0 18px 20px}
+#travel-planner-photo-v8 .tp-home-title {padding:20px 18px 16px}
+#travel-planner-photo-v8 .tp-home-title .tp-eyebrow {font-size:11px;letter-spacing:3px;color:var(--tp-accent);margin-bottom:12px}
+#travel-planner-photo-v8 .tp-home-title p {margin-top:8px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-phone .tp-add-trip {min-height:52px!important;justify-content:flex-start;padding:12px 16px;margin:5px 0 30px;border-radius:14px!important;font-size:16px}
+#travel-planner-photo-v8 .tp-add-trip>span {flex:1;text-align:left}
+#travel-planner-photo-v8 .tp-history-head {display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 10px}
+#travel-planner-photo-v8 .tp-history-head h2 {font-size:17px}
+#travel-planner-photo-v8 .tp-phone .tp-history-row {position:relative;width:100%;display:flex;align-items:center;gap:14px;padding:16px 0!important;border:0;border-bottom:1px solid var(--tp-line);border-radius:0;text-align:left;background:transparent}
+#travel-planner-photo-v8 .tp-history-row:last-child {border-bottom:0}
+#travel-planner-photo-v8 .tp-history-row .tp-photo {width:98px;height:98px;flex-shrink:0;border-radius:13px}
+#travel-planner-photo-v8 .tp-history-copy {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-history-copy strong {display:block;font-size:20px;margin-bottom:8px}
+#travel-planner-photo-v8 .tp-history-meta {display:flex;align-items:flex-start;gap:5px;font-size:12px;color:var(--tp-muted);margin-top:6px}
+#travel-planner-photo-v8 .tp-history-meta svg {width:13px;height:13px;margin-top:3px}
+#travel-planner-photo-v8 .tp-history-row>.tp-history-arrow {width:16px;color:var(--tp-muted);flex-shrink:0}
+#travel-planner-photo-v8 .tp-plan-section {margin-bottom:25px}
+#travel-planner-photo-v8 .tp-home-content {padding-bottom:26px}
+#travel-planner-photo-v8 .tp-new-trip-form {gap:12px}
+#travel-planner-photo-v8 .tp-new-trip-form .tp-form-row {gap:10px}
+#travel-planner-photo-v8 .tp-form-error {font-size:12px;color:var(--tp-warn);margin:4px 0}
+#travel-planner-photo-v8 .tp-setting-field {display:grid;gap:8px;font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-form .tp-setting-label {display:flex;align-items:center;justify-content:space-between;gap:8px}
+#travel-planner-photo-v8 .tp-people-count {color:var(--tp-accent);background:var(--tp-soft);border-radius:8px;padding:3px 7px;white-space:nowrap;font-size:12px}
+#travel-planner-photo-v8 .tp-phone .tp-date-control {width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--tp-card);border:1px solid var(--tp-line);border-radius:12px;padding:12px;text-align:left;min-height:62px;color:var(--tp-fg)}
+#travel-planner-photo-v8 .tp-date-control strong {display:block;font-size:16px}
+#travel-planner-photo-v8 .tp-date-control small {display:block;color:var(--tp-muted);font-size:12px;margin-top:2px}
+#travel-planner-photo-v8 .tp-phone textarea {width:100%;font:inherit;font-size:14px;line-height:1.6;min-height:80px;resize:vertical;border:1px solid var(--tp-line);border-radius:12px;background:var(--tp-card);color:var(--tp-fg);padding:12px}
+#travel-planner-photo-v8 .tp-field-help {font-size:11px;color:var(--tp-muted);line-height:1.7}
+#travel-planner-photo-v8 .tp-calendar-nav {display:flex;align-items:center;justify-content:space-between;margin:12px 0 10px}
+#travel-planner-photo-v8 .tp-calendar-nav strong {font-size:16px}
+#travel-planner-photo-v8 .tp-weekdays,#travel-planner-photo-v8 .tp-calendar-grid {display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px;text-align:center}
+#travel-planner-photo-v8 .tp-weekdays {font-size:12px;color:var(--tp-muted);padding:4px 0 8px}
+#travel-planner-photo-v8 .tp-phone .tp-calendar-day {min-height:48px;padding:5px 1px;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;font-size:14px}
+#travel-planner-photo-v8 .tp-calendar-day small {font-size:11px;line-height:1.2}
+#travel-planner-photo-v8 .tp-phone .tp-calendar-day.tp-range-inside {background:var(--tp-soft);color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-phone .tp-calendar-day.tp-range-endpoint {background:var(--tp-accent);color:var(--tp-on-accent)}
+#travel-planner-photo-v8 .tp-range-summary {display:flex;align-items:center;justify-content:space-between;gap:8px;margin:17px 0 14px;padding:12px;background:var(--tp-soft);border-radius:12px}
+#travel-planner-photo-v8 .tp-range-summary div {min-width:0}
+#travel-planner-photo-v8 .tp-range-summary small {display:block;font-size:11px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-range-summary strong {font-size:14px}
+#travel-planner-photo-v8 .tp-calendar-instruction {font-size:12px;color:var(--tp-muted);margin-bottom:6px}
+#travel-planner-photo-v8 .tp-phone .tp-primary:disabled {opacity:.5}
+@media(max-width:430px){#travel-planner-photo-v8 .tp-phone textarea{font-size:16px}#travel-planner-photo-v8 .tp-calendar-grid{gap:2px}}
+#travel-planner-photo-v8 .tp-empty-day {padding:24px 14px;text-align:center;border:1px dashed var(--tp-line);border-radius:var(--tp-radius);margin:10px 0}
+#travel-planner-photo-v8 .tp-empty-day p {margin-top:8px}
+#travel-planner-photo-v8 .tp-tabs {flex-wrap:wrap}
+#travel-planner-photo-v8 .tp-history-row .tp-photo.tp-no-photo {display:flex;align-items:center;justify-content:center;background-image:none;background-color:var(--tp-soft);color:var(--tp-accent)}
+@media(max-width:430px){#travel-planner-photo-v8 .tp-history-row{gap:11px}#travel-planner-photo-v8 .tp-history-row .tp-photo{width:86px;height:86px}#travel-planner-photo-v8 .tp-history-copy strong{font-size:19px}#travel-planner-photo-v8 .tp-history-head .tp-small{font-size:11px}}
+#travel-planner-photo-v8 .tp-search {display:flex;align-items:center;gap:8px;padding:9px 12px;background:var(--tp-card);border:1px solid var(--tp-line);border-radius:14px;margin-bottom:18px}
+#travel-planner-photo-v8 .tp-search input {padding:0;border:0;min-height:24px;background:transparent;outline-offset:4px}
+#travel-planner-photo-v8 .tp-city-grid {display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#travel-planner-photo-v8 .tp-phone .tp-city {padding:0;border-radius:var(--tp-radius);overflow:hidden;text-align:left;background:var(--tp-card);border:1px solid var(--tp-line)}
+#travel-planner-photo-v8 .tp-photo {background-image:var(--tp-photo);background-size:200% auto;background-repeat:no-repeat;background-position:0 0}
+#travel-planner-photo-v8 .tp-city .tp-photo {height:155px}
+#travel-planner-photo-v8 .tp-city-copy {padding:12px}
+#travel-planner-photo-v8 .tp-city-copy strong {display:block;font-size:17px}
+#travel-planner-photo-v8 .tp-city-copy .tp-small {display:block;margin-top:3px}
+#travel-planner-photo-v8 .tp-city-copy>span:last-child {display:inline-flex;gap:4px;align-items:center;margin-top:8px;color:var(--tp-accent);font-size:12px}
+#travel-planner-photo-v8 .tp-banner {height:118px;margin:0 18px 13px;border-radius:var(--tp-radius);position:relative;overflow:hidden}
+#travel-planner-photo-v8 .tp-banner:after {content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0008,transparent 85%)}
+#travel-planner-photo-v8 .tp-banner-copy {position:absolute;z-index:1;bottom:14px;left:16px;color:#fff}
+#travel-planner-photo-v8 .tp-banner-copy strong {display:block;font-size:22px}
+#travel-planner-photo-v8 .tp-banner-copy small {font-size:12px}
+#travel-planner-photo-v8 .tp-tabs {display:flex;flex-wrap:wrap;gap:12px;margin:0 18px 16px}
+#travel-planner-photo-v8 .tp-phone .tp-tab {flex:0 0 52px;width:52px;height:52px;min-width:52px;border:1px solid var(--tp-line);border-radius:50%;background:var(--tp-card);padding:0;display:flex;align-items:center;justify-content:center;font-size:14px}
+#travel-planner-photo-v8 .tp-tab strong {display:block;font-size:14px}
+#travel-planner-photo-v8 .tp-phone .tp-tab[aria-pressed="true"] {background:var(--tp-accent);color:var(--tp-on-accent);border-color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-phone .tp-tab[aria-pressed="true"]:hover {background:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-export-preview {display:block;width:100%;height:auto;border:1px solid var(--tp-line);border-radius:14px;margin:12px 0 18px}
+#travel-planner-photo-v8 .tp-export-date {color:var(--tp-muted);font-size:12px}
+#travel-planner-photo-v8 .tp-map-heading {display:flex;gap:12px;align-items:center;margin:12px 0 18px}
+#travel-planner-photo-v8 .tp-map-heading>span {display:flex;align-items:center;justify-content:center;background:var(--tp-soft);color:var(--tp-accent);width:46px;height:46px;border-radius:12px}
+#travel-planner-photo-v8 .tp-map-heading strong {display:block;margin-bottom:4px}
+#travel-planner-photo-v8 .tp-map-ordered {margin:14px 0 20px;padding:0;list-style:none}
+#travel-planner-photo-v8 .tp-map-ordered li {display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--tp-line)}
+#travel-planner-photo-v8 .tp-map-ordered small {display:block;margin-top:3px;color:var(--tp-muted);font-size:12px}
+#travel-planner-photo-v8 .tp-map-demo {padding:10px 12px;margin:12px 0;background:var(--tp-soft);border-radius:12px;color:var(--tp-muted);font-size:12px;line-height:1.6}
+#travel-planner-photo-v8 .tp-box {padding:14px;background:var(--tp-card);border:1px solid var(--tp-line);border-radius:var(--tp-radius)}
+#travel-planner-photo-v8 .tp-hotel-strip {display:flex;gap:11px;align-items:center}
+#travel-planner-photo-v8 .tp-hotel-strip .tp-hotel-symbol {display:flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--tp-soft);color:var(--tp-accent);border-radius:12px;flex-shrink:0}
+#travel-planner-photo-v8 .tp-hotel-strip>div:nth-child(2) {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-link {color:var(--tp-accent);font-size:12px;padding:6px;min-height:36px;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+#travel-planner-photo-v8 .tp-food-tray {display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+#travel-planner-photo-v8 .tp-phone .tp-food-chip {display:flex;align-items:center;gap:4px;font-size:12px;background:var(--tp-food);color:var(--tp-food-text);padding:5px 9px;min-height:36px;border-radius:10px}
+#travel-planner-photo-v8 .tp-food-chip svg {width:13px;height:13px}
+#travel-planner-photo-v8 [data-drag-food],#travel-planner-photo-v8 [data-drag-spot] {touch-action:none;user-select:none}
+#travel-planner-photo-v8 .tp-tray-note {font-size:11px;color:var(--tp-muted);margin-top:8px}
+#travel-planner-photo-v8 .tp-list-heading {display:flex;justify-content:space-between;align-items:center;margin:18px 0 10px}
+#travel-planner-photo-v8 .tp-list-heading small {font-size:11px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-stop {position:relative;margin:0 0 9px;padding:13px;background:var(--tp-card);border:1px solid var(--tp-line);border-radius:var(--tp-radius);transition:border-color .15s}
+#travel-planner-photo-v8 .tp-stop.is-drop {border-color:var(--tp-accent);outline:2px solid var(--tp-soft)}
+#travel-planner-photo-v8 .tp-stop-head {display:flex;gap:9px;align-items:center;margin-bottom:8px}
+#travel-planner-photo-v8 .tp-clock {font-size:12px;color:var(--tp-accent);font-variant-numeric:tabular-nums;background:var(--tp-soft);padding:3px 7px;border-radius:7px}
+#travel-planner-photo-v8 .tp-stop-head>div {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-drag {padding:4px;min-height:32px;width:30px;color:var(--tp-muted);cursor:grab}
+#travel-planner-photo-v8 .tp-stop-detail {display:flex;gap:10px;align-items:center}
+#travel-planner-photo-v8 .tp-stop-detail .tp-photo {width:58px;height:58px;flex-shrink:0;border-radius:12px}
+#travel-planner-photo-v8 .tp-stop-detail>div:nth-child(2) {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-spot-name {text-align:left;font-size:16px;padding:0;min-height:28px;border-radius:3px}
+#travel-planner-photo-v8 .tp-stop-desc {font-size:12px;color:var(--tp-muted);margin-top:4px}
+#travel-planner-photo-v8 .tp-stop-actions {display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;border-top:1px solid var(--tp-line);padding-top:7px}
+#travel-planner-photo-v8 .tp-stop-actions>div {display:flex;gap:2px}
+#travel-planner-photo-v8 .tp-stop-actions button {min-height:32px;padding:3px 8px;font-size:12px}
+#travel-planner-photo-v8 .tp-assigned {background:var(--tp-food);color:var(--tp-food-text);margin-top:10px;border-radius:10px;padding:8px 10px;font-size:12px}
+#travel-planner-photo-v8 .tp-leg {display:flex;align-items:center;justify-content:space-between;gap:6px;padding:0 10px 8px 17px;color:var(--tp-muted);font-size:11px}
+#travel-planner-photo-v8 .tp-leg>span {border-left:2px solid var(--tp-line);padding:7px 0 7px 15px;flex:1}
+#travel-planner-photo-v8 .tp-leg button {font-size:11px;color:var(--tp-accent);min-height:32px;padding:4px}
+#travel-planner-photo-v8 .tp-primary {background:var(--tp-accent)!important;color:var(--tp-on-accent)!important;min-height:46px!important;display:flex;justify-content:center;align-items:center;gap:7px;width:100%;border-radius:14px!important}
+#travel-planner-photo-v8 .tp-outline {background:var(--tp-card)!important;border:1px solid var(--tp-line)!important;color:var(--tp-accent)!important;min-height:44px!important;width:100%;display:flex;align-items:center;justify-content:center;gap:6px}
+#travel-planner-photo-v8 .tp-actions {display:flex;gap:9px;margin-top:14px}
+#travel-planner-photo-v8 .tp-actions>* {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-summary {display:flex;justify-content:space-between;align-items:center;padding:14px 0 4px;gap:8px;font-size:12px}
+#travel-planner-photo-v8 .tp-summary strong {font-size:17px}
+#travel-planner-photo-v8 .tp-bottom-nav {display:flex;justify-content:space-around;gap:12px;border-top:1px solid var(--tp-line);background:var(--tp-card);padding:10px 22px 14px}
+#travel-planner-photo-v8 .tp-bottom-nav button {display:flex;align-items:center;gap:7px;font-size:12px;color:var(--tp-muted);min-width:100px}
+#travel-planner-photo-v8 .tp-bottom-nav button.is-active {color:var(--tp-accent);background:var(--tp-soft)}
+#travel-planner-photo-v8 .tp-notice {font-size:11px;color:var(--tp-muted);text-align:center;padding:10px 14px}
+#travel-planner-photo-v8 .tp-toast {background:var(--tp-soft);color:var(--tp-accent);font-size:12px;border-radius:10px;padding:9px 12px;margin-bottom:12px}
+#travel-planner-photo-v8 .tp-comparison {display:grid;grid-template-columns:.85fr 1fr 1fr;align-items:stretch;gap:0;background:var(--tp-card);border:1px solid var(--tp-line);border-radius:var(--tp-radius);overflow:hidden;font-size:12px}
+#travel-planner-photo-v8 .tp-comparison>div {padding:12px 8px;border-bottom:1px solid var(--tp-line);overflow-wrap:anywhere}
+#travel-planner-photo-v8 .tp-comparison>div:nth-child(3n+1) {color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-comparison .tp-compare-head {background:var(--tp-soft);color:var(--tp-fg);font-weight:500}
+#travel-planner-photo-v8 .tp-comparison button {padding:4px;font-size:12px;width:100%}
+#travel-planner-photo-v8 .tp-form {display:grid;gap:15px}
+#travel-planner-photo-v8 .tp-form label {display:grid;gap:6px;font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-form-row {display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#travel-planner-photo-v8 .tp-filters {display:flex;flex-wrap:wrap;gap:5px;margin-bottom:13px}
+#travel-planner-photo-v8 .tp-filters button {font-size:12px;padding:7px 10px;border:1px solid var(--tp-line);background:var(--tp-card);min-height:36px}
+#travel-planner-photo-v8 .tp-filters button[aria-pressed="true"] {color:var(--tp-accent);background:var(--tp-soft)}
+#travel-planner-photo-v8 .tp-picker-row {display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--tp-line);padding:13px 0}
+#travel-planner-photo-v8 .tp-picker-row .tp-photo {width:70px;height:70px;border-radius:14px;flex-shrink:0}
+#travel-planner-photo-v8 .tp-picker-row>div:nth-child(2) {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-check {background:var(--tp-soft);color:var(--tp-accent);padding:5px;min-width:36px;min-height:36px;border-radius:50%;font-size:18px}
+#travel-planner-photo-v8 .tp-guide-photo {height:205px;margin:0 18px;border-radius:var(--tp-radius)}
+#travel-planner-photo-v8 .tp-guide-title {margin:15px 0 12px}
+#travel-planner-photo-v8 .tp-guide-tabs {display:flex;gap:4px;border-bottom:1px solid var(--tp-line);margin:12px 0}
+#travel-planner-photo-v8 .tp-guide-tabs button {font-size:12px;padding:7px 9px;flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-guide-tabs button[aria-pressed="true"] {color:var(--tp-accent);background:var(--tp-soft)}
+#travel-planner-photo-v8 .tp-guide-text {font-size:13px;margin:10px 0;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-info-line {display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--tp-line);font-size:13px}
+#travel-planner-photo-v8 .tp-info-line span {color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-warn {padding:10px 12px;background:var(--tp-food);color:var(--tp-food-text);border-radius:12px;font-size:12px;margin:12px 0}
+#travel-planner-photo-v8 .tp-food-row {padding:14px 0;border-bottom:1px solid var(--tp-line);display:flex;gap:12px;align-items:center}
+#travel-planner-photo-v8 .tp-food-symbol {height:50px;width:50px;display:flex;align-items:center;justify-content:center;color:var(--tp-food-text);background:var(--tp-food);border-radius:15px;flex-shrink:0}
+#travel-planner-photo-v8 .tp-food-row>div:nth-child(2) {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-food-name {padding:0;min-height:28px;font-size:16px;text-align:left}
+#travel-planner-photo-v8 .tp-route-point {display:flex;gap:12px;align-items:center;margin:12px 0}
+#travel-planner-photo-v8 .tp-number {width:28px;height:28px;border-radius:50%;background:var(--tp-accent);color:var(--tp-on-accent);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:12px}
+#travel-planner-photo-v8 .tp-route-leg {margin-left:13px;border-left:2px solid var(--tp-line);padding:4px 0 4px 25px;color:var(--tp-muted);font-size:12px}
+#travel-planner-photo-v8 .tp-store {margin-top:12px;padding:13px;border:1px solid var(--tp-line);border-radius:var(--tp-radius);background:var(--tp-card)}
+#travel-planner-photo-v8 .tp-store-head {display:flex;gap:7px;align-items:center;margin-bottom:6px}
+#travel-planner-photo-v8 .tp-sheet-layer {position:absolute;inset:0;z-index:4;background:light-dark(#183a2b44,#0009);display:flex;align-items:flex-start;padding:85px 12px 30px;min-height:100%}
+#travel-planner-photo-v8 .tp-sheet {background:var(--tp-card);border-radius:24px;width:100%;padding:16px;box-shadow:0 12px 50px #0002}
+#travel-planner-photo-v8 .tp-sheet-head {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+#travel-planner-photo-v8 .tp-sheet-option {width:100%;display:flex;align-items:center;gap:8px;border:1px solid var(--tp-line)!important;text-align:left!important;margin:8px 0}
+#travel-planner-photo-v8 .tp-sheet-option>span {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-sheet-option.is-selected {background:var(--tp-soft);border-color:var(--tp-accent)!important}
+#travel-planner-photo-v8 .tp-clean {--tp-bg:light-dark(#fff,#191e1c);--tp-card:light-dark(#fff,#212925);--tp-radius:12px}
+#travel-planner-photo-v8 .tp-clean .tp-city-grid {display:flex;flex-direction:column;gap:0}
+#travel-planner-photo-v8 .tp-clean .tp-phone {border-radius:24px}
+#travel-planner-photo-v8 .tp-clean .tp-city {display:flex;gap:14px;align-items:center;border:0;border-bottom:1px solid var(--tp-line);border-radius:0;padding:12px 0!important}
+#travel-planner-photo-v8 .tp-clean .tp-city .tp-photo {height:106px;width:108px;flex-shrink:0;border-radius:12px}
+#travel-planner-photo-v8 .tp-clean .tp-city-copy {padding:0;flex:1}
+#travel-planner-photo-v8 .tp-clean .tp-city-copy strong {font-size:20px}
+#travel-planner-photo-v8 .tp-clean .tp-home-title {padding-top:14px}
+#travel-planner-photo-v8 .tp-clean .tp-banner {height:64px}
+#travel-planner-photo-v8 .tp-clean .tp-banner-copy strong {font-size:18px}
+#travel-planner-photo-v8 .tp-clean .tp-banner-copy small {display:none}
+#travel-planner-photo-v8 .tp-clean .tp-box {padding:12px 0;border:0;border-bottom:1px solid var(--tp-line);border-radius:0}
+#travel-planner-photo-v8 .tp-clean .tp-stop {padding:13px 0;border:0;border-bottom:1px solid var(--tp-line);border-radius:0}
+#travel-planner-photo-v8 .tp-clean .tp-stop-actions {border:0;padding-top:0}
+#travel-planner-photo-v8 .tp-clean .tp-stop-detail .tp-photo {width:48px;height:48px;border-radius:8px}
+#travel-planner-photo-v8 .tp-clean .tp-guide-photo {height:150px}
+@media(max-width:430px){#travel-planner-photo-v8 .tp-stage{padding:15px 0 40px;min-height:1050px}#travel-planner-photo-v8 .tp-phone{border-radius:24px}#travel-planner-photo-v8 .tp-content{padding-left:14px;padding-right:14px}#travel-planner-photo-v8 .tp-banner,#travel-planner-photo-v8 .tp-guide-photo{margin-left:14px;margin-right:14px}#travel-planner-photo-v8 .tp-city .tp-photo{height:130px}#travel-planner-photo-v8 .tp-phone h1{font-size:24px}#travel-planner-photo-v8 .tp-city-copy{padding:10px}#travel-planner-photo-v8 .tp-phone input,#travel-planner-photo-v8 .tp-phone select{font-size:16px}#travel-planner-photo-v8 .tp-clean .tp-city .tp-photo{width:96px;height:100px}}
+@media(prefers-reduced-motion:reduce){#travel-planner-photo-v8 .tp-stop{transition:none}}
+#travel-planner-photo-v8 .tp-phone .tp-hotel-upload {display:flex;flex-direction:column;gap:7px;align-items:center;justify-content:center;width:100%;padding:20px 12px;border:1px dashed var(--tp-accent);border-radius:16px;background:var(--tp-soft);text-align:center;margin-bottom:14px}
+#travel-planner-photo-v8 .tp-hotel-upload>svg {width:28px;height:28px;color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-hotel-upload strong {font-size:16px;color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-hotel-upload>span {font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-hotel-caption {font-size:12px;color:var(--tp-muted);padding:2px 0 12px}
+#travel-planner-photo-v8 .tp-hotel-table-wrap {max-width:100%;overflow-x:auto;border:1px solid var(--tp-line);border-radius:var(--tp-radius)}
+#travel-planner-photo-v8 .tp-hotel-table {width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;background:var(--tp-card)}
+#travel-planner-photo-v8 .tp-hotel-table th,#travel-planner-photo-v8 .tp-hotel-table td {padding:12px 8px;text-align:left;vertical-align:middle;border-bottom:1px solid var(--tp-line);overflow-wrap:anywhere}
+#travel-planner-photo-v8 .tp-hotel-table th {font-weight:400}
+#travel-planner-photo-v8 .tp-hotel-table th:first-child {width:80px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-hotel-table thead th {background:var(--tp-soft)}
+#travel-planner-photo-v8 .tp-hotel-table thead strong {font-size:13px;color:var(--tp-fg)}
+#travel-planner-photo-v8 .tp-hotel-table .tp-link {font-size:11px;padding:4px 0;white-space:normal;gap:4px}
+#travel-planner-photo-v8 .tp-hotel-table .tp-link svg {width:13px;height:13px;flex-shrink:0}
+#travel-planner-photo-v8 .tp-hotel-table tr:last-child td,#travel-planner-photo-v8 .tp-hotel-table tr:last-child th {border-bottom:0}
+#travel-planner-photo-v8 .tp-unconfirmed {color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-import-label {display:block;font-size:12px;color:var(--tp-muted);margin-bottom:8px}
+#travel-planner-photo-v8 .tp-import-images {display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 12px}
+#travel-planner-photo-v8 .tp-import-images figure {position:relative;margin:0;min-width:0}
+#travel-planner-photo-v8 .tp-import-images img {display:block;width:100%;height:150px;object-fit:contain;background:var(--tp-soft);border-radius:12px;border:1px solid var(--tp-line)}
+#travel-planner-photo-v8 .tp-import-images figcaption {overflow-wrap:anywhere;font-size:11px;color:var(--tp-muted);padding:5px 2px}
+#travel-planner-photo-v8 .tp-import-images .tp-icon {position:absolute;right:3px;top:3px;width:32px;min-height:32px;background:var(--tp-card);border:1px solid var(--tp-line);padding:4px}
+#travel-planner-photo-v8 .tp-phone .tp-demo-link {justify-content:center;width:100%;text-align:center}
+#travel-planner-photo-v8 .tp-hotel-review-note {padding:12px;background:var(--tp-soft);color:var(--tp-accent);border-radius:12px;font-size:12px;margin-bottom:16px}
+#travel-planner-photo-v8 .tp-field-missing {font-size:11px;color:var(--tp-accent)}
+
+#travel-planner-photo-v8 .tp-spot-input-intro {text-align:center;padding:18px 12px 24px}
+#travel-planner-photo-v8 .tp-spot-input-intro>span {display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;background:var(--tp-soft);color:var(--tp-accent);border-radius:50%;margin-bottom:14px}
+#travel-planner-photo-v8 .tp-spot-input-intro p {margin-top:8px}
+#travel-planner-photo-v8 .tp-notes {padding:6px 0 8px}
+#travel-planner-photo-v8 .tp-note-tools {display:flex;flex-wrap:wrap;gap:9px;margin:12px 0}
+#travel-planner-photo-v8 .tp-phone .tp-note-tool {display:inline-flex;align-items:center;gap:6px;border:1px solid var(--tp-line);font-size:12px;color:var(--tp-accent);min-height:42px;padding:8px 10px}
+#travel-planner-photo-v8 .tp-phone .tp-note-text {min-height:96px;resize:vertical;font-size:14px;line-height:1.6}
+#travel-planner-photo-v8 .tp-note-images {display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+#travel-planner-photo-v8 .tp-note-images figure {position:relative;margin:0;min-width:0}
+#travel-planner-photo-v8 .tp-note-images img,#travel-planner-photo-v8 .tp-note-image-missing {width:100%;height:126px;object-fit:cover;border-radius:12px;border:1px solid var(--tp-line);background:var(--tp-soft);display:block}
+#travel-planner-photo-v8 .tp-note-image-missing {display:flex;align-items:center;justify-content:center;color:var(--tp-muted);font-size:12px}
+#travel-planner-photo-v8 .tp-note-images figcaption {font-size:11px;color:var(--tp-muted);overflow-wrap:anywhere;padding:4px 2px}
+#travel-planner-photo-v8 .tp-phone .tp-note-remove {display:flex;align-items:center;justify-content:center;width:36px;min-height:36px;padding:6px;background:var(--tp-card);color:var(--tp-muted);border:1px solid var(--tp-line);flex-shrink:0}
+#travel-planner-photo-v8 .tp-note-images .tp-note-remove {position:absolute;right:4px;top:4px}
+#travel-planner-photo-v8 .tp-note-links article {display:flex;align-items:center;gap:10px;padding:12px;background:var(--tp-soft);border-radius:12px;margin:10px 0}
+#travel-planner-photo-v8 .tp-note-link-symbol {color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-note-links article>div {flex:1;min-width:0}
+#travel-planner-photo-v8 .tp-note-links article strong {font-size:13px;display:block}
+#travel-planner-photo-v8 .tp-note-links article>div>span {font-size:11px;color:var(--tp-muted);display:block;overflow-wrap:anywhere}
+#travel-planner-photo-v8 .tp-phone .tp-note-links a {padding:3px 0;min-height:32px}
+#travel-planner-photo-v8 .tp-custom-cover {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:var(--tp-soft);color:var(--tp-muted);font-size:13px}
+#travel-planner-photo-v8 .tp-custom-cover>svg {width:28px;height:28px}
+#travel-planner-photo-v8 .tp-stop-detail .tp-custom-cover {background-image:none;flex-shrink:0}
+@media(max-width:430px){#travel-planner-photo-v8 .tp-phone .tp-note-text{font-size:16px}}
+@media(pointer:coarse){#travel-planner-photo-v8 .tp-phone .tp-note-remove{width:44px;min-height:44px}}
+
+#travel-planner-photo-v8 .tp-stage {min-height:0}
+
+/* 2026-10-15: user-written guide basics and grouped food checklist. */
+#travel-planner-photo-v8 .tp-guide-title {margin-top:6px}
+#travel-planner-photo-v8 .tp-guide-basics {margin:18px 0 22px}
+#travel-planner-photo-v8 .tp-guide-basics input {width:100%}
+#travel-planner-photo-v8 .tp-food-empty {margin:0;padding:8px 0}
+#travel-planner-photo-v8 .tp-meal-intro {font-size:13px;color:var(--tp-muted);margin:4px 0 16px}
+#travel-planner-photo-v8 .tp-meal-groups {display:grid;gap:12px}
+#travel-planner-photo-v8 .tp-meal-group {border:1px solid var(--tp-line);border-radius:12px;overflow:hidden}
+#travel-planner-photo-v8 .tp-phone .tp-meal-toggle {display:flex;align-items:center;width:100%;padding:13px 14px;gap:8px;text-align:left;border-radius:0}
+#travel-planner-photo-v8 .tp-meal-toggle strong {flex:1;font-size:15px;font-weight:500}
+#travel-planner-photo-v8 .tp-meal-toggle span {font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-meal-toggle svg {width:18px;height:18px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-meal-body {padding:0 14px 14px}
+#travel-planner-photo-v8 .tp-meal-body[hidden] {display:none}
+#travel-planner-photo-v8 .tp-meal-form {display:flex;align-items:stretch;gap:8px}
+#travel-planner-photo-v8 .tp-meal-form input {flex:1;min-width:0;width:0;font-size:13px}
+#travel-planner-photo-v8 .tp-phone .tp-meal-add {display:flex;align-items:center;justify-content:center;gap:3px;flex:0 0 72px;background:var(--tp-accent);color:var(--tp-on-accent);font-size:13px;padding:8px;border-radius:10px}
+#travel-planner-photo-v8 .tp-meal-add svg {width:16px;height:16px}
+#travel-planner-photo-v8 .tp-meal-empty {font-size:12px;color:var(--tp-muted);margin:10px 0 0}
+#travel-planner-photo-v8 .tp-meal-items {padding:0;margin:8px 0 0;list-style:none}
+#travel-planner-photo-v8 .tp-meal-items li {display:flex;align-items:center;gap:8px;border-top:1px solid var(--tp-line);padding-top:8px;margin-top:8px;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-meal-name {flex:1;min-width:0;padding:4px 0;text-align:left;font-size:14px;overflow-wrap:anywhere}
+#travel-planner-photo-v8 .tp-meal-items .tp-link {font-size:12px;flex-shrink:0}
+#travel-planner-photo-v8 .tp-meal-items .tp-icon {width:32px;min-height:36px;flex-shrink:0;color:var(--tp-muted)}
+@media(max-width:430px){#travel-planner-photo-v8 .tp-guide-basics input,#travel-planner-photo-v8 .tp-meal-form input{font-size:16px}}
+
+/* User-added photography references; separate from guide notes. */
+#travel-planner-photo-v8 .tp-phone .tp-photo-upload {width:100%;min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin-top:16px;padding:20px;border:1px dashed var(--tp-accent);border-radius:12px;background:var(--tp-soft);color:var(--tp-accent)}
+#travel-planner-photo-v8 .tp-photo-upload>svg {width:26px;height:26px}
+#travel-planner-photo-v8 .tp-photo-upload strong {font-size:15px;font-weight:500}
+#travel-planner-photo-v8 .tp-photo-upload span {font-size:12px;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-photo-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+#travel-planner-photo-v8 .tp-photo-grid figure {margin:0;border:1px solid var(--tp-line);border-radius:12px;overflow:hidden;min-width:0}
+#travel-planner-photo-v8 .tp-phone .tp-photo-thumb {display:block;width:100%;padding:0;border-radius:0;background:var(--tp-soft);aspect-ratio:4/3;overflow:hidden}
+#travel-planner-photo-v8 .tp-photo-thumb img {display:block;width:100%;height:100%;object-fit:cover}
+#travel-planner-photo-v8 .tp-photo-grid figcaption {display:flex;align-items:center;gap:4px;padding:6px 8px;min-width:0}
+#travel-planner-photo-v8 .tp-photo-grid figcaption span {flex:1;min-width:0;font-size:11px;overflow-wrap:anywhere;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-photo-grid .tp-icon {width:32px;min-height:36px;flex-shrink:0;color:var(--tp-muted)}
+#travel-planner-photo-v8 .tp-photo-status {font-size:12px;line-height:1.55;color:var(--tp-muted);margin:10px 0 0}
+#travel-planner-photo-v8 .tp-photo-dialog {padding:14px;border:1px solid var(--tp-line);border-radius:16px;background:var(--tp-card);color:var(--tp-fg);width:min(640px,calc(100% - 36px));max-width:640px}
+#travel-planner-photo-v8 .tp-photo-dialog::backdrop {background:light-dark(#183a2b99,#000b)}
+#travel-planner-photo-v8 .tp-photo-dialog-head {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+#travel-planner-photo-v8 .tp-photo-dialog-head strong {font-weight:500}
+#travel-planner-photo-v8 .tp-photo-dialog img {display:block;width:100%;height:auto;max-height:580px;object-fit:contain}
+#travel-planner-photo-v8 .tp-photo-dialog p {font-size:12px;color:var(--tp-muted);overflow-wrap:anywhere;margin:10px 0 0}
+@media(pointer:coarse){#travel-planner-photo-v8 .tp-photo-grid .tp-icon{width:44px;min-height:44px}}
