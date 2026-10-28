@@ -2,7 +2,11 @@
 
 使用 HTML、CSS 和 JavaScript 实现的旅行规划网页体验版，无需安装依赖或执行构建。
 
-[在线体验](https://travel-slow-saber007.peachybloom2048.chatgpt.site/)
+[在线体验](https://sensen904.github.io/travel-slow/)
+
+## GitHub Pages 部署
+
+网站由 GitHub Pages 从 `main` 分支的根目录 `/ (root)` 自动部署。将网页文件提交到 `main` 后，GitHub 会自动更新在线版本；可在仓库的 Actions 或 Settings → Pages 查看部署状态。
 
 ## 功能
 
